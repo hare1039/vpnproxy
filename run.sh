@@ -16,4 +16,4 @@ docker run -d \
        TCP4-LISTEN:3129,fork,reuseaddr UNIX-CONNECT:/vpn/3proxy.sock;
 
 # connect to vpn
-docker exec -it vpnproxy openvpn --cd /vpn --config a.ovpn
+docker exec -it vpnproxy openvpn a.ovpn
